@@ -1,0 +1,12 @@
+#if logic
+#check whether a is less than 10 or not
+a=5
+if a<10:
+      Print("a is less than 10)
+      Print("hi...")
+
+
+'''expected output: a is less than 10
+                     hi....'''
+'''original output a is less than 10
+                     hi....'''
