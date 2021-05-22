@@ -1,0 +1,27 @@
+'''python program to read age of student and check 
+Whether student is eligible for vote or not'''
+#student details
+Name=input("enter input") #string
+Age=int(input("enter age"))
+#check condition
+if age>=18:
+       Print("hello",name)
+       Print("eligible for vote")
+else:
+       Print("sorry!",name)
+       Print("not eligible for vote due to ",age)
+
+
+
+'''expected output:
+enter input madhu
+Enter age 25
+Hello madhu
+Eligible for vote'''
+ 
+'''Original output:
+
+enter input madhu
+Enter age 25
+Hello madhu
+Eligible for vote'''
