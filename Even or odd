@@ -1,8 +1,10 @@
+#even or odd
 Num=int(input("enter number"))
-if(Num%2)==0
+if(Num%2)==0:
     Print(Num,"is even number")
-else
+else:
     Print(Num,"is odd number")
+
 
 
 '''expected output:
