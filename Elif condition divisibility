@@ -1,0 +1,24 @@
+#whether a number is divisible by 2,3,4,5
+#otherwise print it is not divisible by 2 or 3or 4or5
+num=int(input())
+if (num%2)==0:
+   Print(num,"divisible by 2")
+elif (num%3)==0:
+   Print(num,"divisible by 3")
+elif (num%4)==0:
+   Print(num,"divisible by 4")
+elif (num%5)==0:
+   Print(num,"divisible by 5")
+else:
+   Print(num,"not divisible by 2 or 3 or 4 or 5)
+
+
+'''expected output:
+6
+6 divisible by 2
+5
+5 divisible by 5'''
+
+''' original output:
+8
+8 divisible by 2'''
