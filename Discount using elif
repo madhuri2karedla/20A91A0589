@@ -4,32 +4,38 @@ if bill<1000:
        Print("paid bill is ",bill)
 elif 1000<=bill<2000:
        Print("total bill is", bill)
-       discount=(int(input("enter discount percentage:")
-       Output=bill-(bill*discount/100)
+       Discount=bill*10/100
+       Print("discount amount is",Discount)
+       Output=bill-Discount
        Print("total bill paid is ",output)
 
 elif 2000<=bill<3000:
        Print("total bill is", bill)
-       discount=(int(input("enter discount percentage:")
-       Output=bill-(bill*discount/100)
+       Discount=bill*20/100
+       Print("discount amount is",Discount)
+       Output=bill-Discount
        Print("total bill paid is ",output)
 
     
 elif 3000<=bill<5000:
        Print("total bill is", bill)
-       discount=(int(input("enter discount percentage:")
-       Output=bill-(bill*discount/100)
+       Discount=bill*30/100
+       Print("discount amount is",Discount)
+       Output=bill-Discount
        Print("total bill paid is ",output)
+       
+       
 elif bill>=5000:
        Print("total bill is", bill)
-       discount=(int(input("enter discount percentage:")
-       Output=bill-(bill*discount/100)
+       Discount=bill*20/100
+       Print("discount amount is",Discount)
+       Output=bill-Discount
        Print("total bill paid is ",output)
 
 '''output:
 Enter amount 2500
 Total bill is 2500
-Enter discount percentage 20
+Discount amount is 500
 Total bill paid is 2000'''
 
 
