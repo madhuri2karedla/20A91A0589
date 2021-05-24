@@ -8,7 +8,7 @@ elif 1000<=bill<2000:
        Output=bill-(bill*discount/100)
        Print("total bill paid is ",output)
 
- elif 2000<=bill<3000:
+elif 2000<=bill<3000:
        Print("total bill is", bill)
        discount=(int(input("enter discount percentage:")
        Output=bill-(bill*discount/100)
