@@ -1,0 +1,26 @@
+#nested if
+Username=input()
+if username=="CSE B":
+     Password=input()
+     if password=="AEC":
+         Print("valid student ")
+     else:
+         Print(" sorry!invalid password")
+else:
+     Print("sorry! Invalid username")
+
+
+
+'''output:
+CSE B
+aEc
+Sorry!invalid password
+
+
+Cse b
+Sorry!Invalid username
+
+
+CSE B 
+AEC
+Valid student'''
