@@ -1,0 +1,11 @@
+Number=int(input ("enter number"))
+i=1
+While(i<=Number):
+     if(Number%i==0):
+          Print(i)
+     i+=1
+'''output: enter number 8
+1
+2
+4
+8'''
