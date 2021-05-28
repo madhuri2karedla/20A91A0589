@@ -1,0 +1,13 @@
+Number=int(input('enter number'))
+Reverse_number=0
+Remainder=0
+While (Number>0)
+    Remainder=Number%10
+    Reverse_number=Reverse_number*10+Remainder
+    Number=Number//10
+Print("the reverse number is:%d" %(Number))
+
+
+'''output:
+enter number:1435
+the reverse number is:5341'''
