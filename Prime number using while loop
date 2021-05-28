@@ -1,0 +1,16 @@
+Number=int(input('enter number:))
+i=2
+Count=0
+While (i<Number):
+    if(Number%i==0):
+        Count=1
+        Print("%d is not a prime number" %(Number))
+    i+=1
+if (count==0):
+        Print("%d is a prime number" %(Number))
+
+
+
+'''output:
+enter number 4
+4 is not a prime number'''
