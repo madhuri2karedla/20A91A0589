@@ -5,6 +5,7 @@ while (i<Number):
     if(Number%i==0):
         Count=1
         print("%d is not a prime number" %(Number))
+        break
     i+=1
 if (count==0):
         print("%d is a prime number" %(Number))
