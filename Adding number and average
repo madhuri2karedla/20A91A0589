@@ -1,0 +1,46 @@
+#1.1 lab experiment
+a=int(input("enter 1st number"))
+b=int(input("enter 2nd number"))
+c=int(input("enter 3rd number"))
+Total=a+b+c
+Average=total/3
+Print("sum is",total)
+Print("average is",average)
+
+
+#expected output
+Enter 1st number 3
+Enter 2nd number 2
+Enter 3rd number 1
+Sum is 6
+Average is 2
+
+
+#actual output
+Enter 1st number 3
+Enter 2nd number 2Enter 3rd number 1
+Sum is 6
+Average is 2
+1.1 lab experiment
+a=int(input("enter 1st number"))
+b=int(input("enter 2nd number"))
+c=int(input("enter 3rd number"))
+Total=a+b+c
+Average=total/3
+Print("sum is",total)
+Print("average is",average)
+
+
+#expected output
+Enter 1st number 3
+Enter 2nd number 2
+Enter 3rd number 1
+Sum is 6
+Average is 2
+
+
+#actual output
+Enter 1st number 3
+Enter 2nd number 2Enter 3rd number 1
+Sum is 6
+Average is 2
