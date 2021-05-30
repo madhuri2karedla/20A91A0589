@@ -1,17 +1,16 @@
+#prime number or not
 Number=int(input('enter number:'))
-i=2
+i=1
 Count=0
-if(Number<2):
-    Print("not define whether prime or not")
-else:
-    while (i<Number):
+while (i<=Number//2):
         if(Number%i==0):
-             Count=1
-             print("%d is not a prime number" %(Number))
-             break
+             Count+=1
         i+=1
-    if (count==0):
+if (count==1):
          print("%d is a prime number" %(Number))
+else:
+         print("%d is not a prime number" %(Number))
+
 
 
 
